@@ -1,0 +1,49 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "100 Days of Android"
+theme = "LeaveIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+[params]
+    author = "Thomas Phillips"  
+    avatar = "/images/me/bitmoji.png"
+    subtitle = "100 days of Android"    
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+   
+    description = "" # site description
+    keywords = "" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+
+
+[params.social]
+    GitHub = "thomasphillips3"
+    Twitter = "thomasphillips3"
+    LinkedIn = "tom4sumaction"
+
+
